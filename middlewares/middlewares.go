@@ -4,13 +4,11 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/google/uuid"
-
 	"github.com/c/websshterminal.io/ubzer"
+	"github.com/google/uuid"
+	"github.com/labstack/echo/v4"
+	"github.com/labstack/echo/v4/middleware"
 	"go.uber.org/zap"
-
-	"github.com/labstack/echo"
-	"github.com/labstack/echo/middleware"
 )
 
 var (

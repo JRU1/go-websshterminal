@@ -4,11 +4,10 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/gorilla/websocket"
-
 	"github.com/c/websshterminal.io/connections"
 	"github.com/c/websshterminal.io/ubzer"
-	"github.com/labstack/echo"
+	"github.com/gorilla/websocket"
+	"github.com/labstack/echo/v4"
 	"go.uber.org/zap"
 )
 

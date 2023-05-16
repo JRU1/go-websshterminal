@@ -4,13 +4,10 @@ import (
 	"os"
 
 	_const "github.com/c/websshterminal.io/const"
-
 	"github.com/robfig/cron"
-
-	"gopkg.in/natefinch/lumberjack.v2"
-
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
+	"gopkg.in/natefinch/lumberjack.v2"
 )
 
 var MLog *zap.Logger
